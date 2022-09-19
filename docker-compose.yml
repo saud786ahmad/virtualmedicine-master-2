@@ -37,7 +37,7 @@ services:
     container_name: eureka-server
     build: eureka-server/
     hostname: localhost
-    network_mode: "host"
+    #network_mode: "host"
     ports:
       - 8761:8761
     restart: always
